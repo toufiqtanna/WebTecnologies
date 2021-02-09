@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LabTask_1</title>>
+</head>
+<body>
+
+<form>
+<table cellpadding="2" width="50%" bgcolor="E0E0E0" align="center"
+cellspacing="2">
+
+<tr>
+<td colspan=2>
+<left><font size=2><b><span style="color: #ff0000">*</span>- Denotes Required Informaton</b></font></left>
+</td>
+</tr>
+
+<tr>
+<td colspan=2>
+<left><font size=2><b>> 1 Donation</b> > 2 Confirmation     > 3 Thank you! </font></left>
+</td>
+</tr>
+
+<tr>
+<td colspan=2>
+<left><font size=4><b><p style=" color: red;"> Donar Information</p></font> </left>
+</td>
+</tr>
+
+
+<tr>
+<td><b>First Name <span style="color: #ff0000">*</span></b></td>
+<td><input type=text name=name id="name" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Last Name <span style="color: #ff0000">*</span></b></td>
+<td><input type="text"  name="lastname" id="lastname" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Company</b></td>
+<td><input type="text" name="company" id="company" size="30"></td>
+</tr>
+
+
+<tr>
+<td><b>Address 1<span style="color: #ff0000">*</span></b></td>
+<td><input type="text" name="address1" id="address1" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Address 2</b></td>
+<td><input type="text" name="address 2" id="address 2" size="30"></td>
+</tr>
+
+<tr>
+<td><b>City <span style="color: #ff0000">*</span></b></td>
+<td><input type="text" name="city" id="city" size="30"></td>
+</tr>
+
+
+<tr>
+<td><b>State<span style="color: #ff0000">*</span></b></td>
+<td><select name="State">
+<option value="1" selected>Select a State</option>
+<option value="Dhaka">DHAKA</option>
+<option value="Chittagong">CHITTAGONG</option>
+<option value="Khulna">KHULNA</option>
+<option value="Barisal">BARISAL</option>
+<option value="Rajshahi">RAJSHAHI</option>
+<option value="Sylhet">SYLHET</option>
+
+</select></td>
+</tr>
+
+
+<tr>
+<td><b>Zip Code<span style="color: #ff0000">*</span></b></td>
+<td><input type="text" name="zcode" id="zcode" size="30"></td>
+</tr>
+
+
+<tr>
+<td><b>Country<span style="color: #ff0000">*</span></b></td>
+<td><select name="country">
+<option value="-1" selected>Select a Country</option>
+<option value="Bangladesh">BANGLADESH</option>
+<option value="India">INDIA</option>
+<option value="Pakistan">PAKISTAN</option>
+<option value="Srilanka">SRILANKA</option>
+<option value="Afganistan">AFGANISTAN</option>
+<option value="Nepal">NEPAL</option>
+<option value="Bhutan">BHUTAN</option>
+<option value="Maldives">MALDIVES</option>
+</select></td>
+</tr>
+
+<tr>
+<td><b>Phone</b></td>
+<td><input type="text" name="phone" id="phone" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Fax</b></td>
+<td><input type="text" name="fax" id="fax" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Email<span style="color: #ff0000">*</span></b></td>
+<td><input type="text" name="email" id="email" size="30"></td>
+</tr>
+
+
+<tr>
+<td><b>Donation Amount<span style="color: #ff0000">*</span></b></td>
+<td><input type="radio" name="damount" value="None" size="10">None
+<input type="radio" name="damount" value="$50" size="10">$50
+<input type="radio" name="damount" value="$75" size="10">$75
+<input type="radio" name="damount" value="$100" size="10">$100
+<input type="radio" name="damount" value="$250" size="10">$250
+<input type="radio" name="damount" value="Other" size="10">Other</td>
+</tr>
+
+<tr>
+<td>(Check a button or type in your amount)
+  <br><b>Other Amount $</b></td>
+<td><input type="text" name="oamount" id="oamount" size="30"></td>
+</tr>
+
+<tr>    
+<td><b>Recurring Donation</b><br>(Check if yes)</td>
+<td colspan="2"><input type="checkbox">I am interested in giving on a regular basis</td>
+</tr>
+
+<tr>
+<td colspan=2>
+<left><font size=4><b><p style=" color: red;"> Honorarium and Memorial Donation Information </p></font> </left>
+</td>
+</tr>
+
+
+<tr>
+<td><b>I would like to make this donation <span style="color: #ff0000">*</span></b></td>
+<td><input type="radio" name="tamount" value="To Honor" size="10">To Honor
+  <br>
+<input type="radio" name="tamount" value="In Memory of " size="10"> In Memory of
+</td>
+</tr>
+
+<tr>
+<td><b> Name </b></td>
+<td><input type=text name=name id="name" size="30"></td>
+</tr>
+
+<tr>
+<td><b> Acknowledge Donation to </b></td>
+<td><input type=ack name=name id="ack" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Address</b></td>
+<td><input type="text" name="addressq" id="addressq" size="30"></td>
+</tr>
+
+<tr>
+<td><b>City</b></td>
+<td><input type="text" name="ct" id="ct" size="30"></td>
+</tr>
+
+
+<tr>
+<td><b>State</b></td>
+<td><select name="State">
+<option value="1" selected>Select a State</option>
+<option value="Dhaka">DHAKA</option>
+<option value="Chittagong">CHITTAGONG</option>
+<option value="Khulna">KHULNA</option>
+<option value="Barisal">BARISAL</option>
+<option value="Rajshahi">RAJSHAHI</option>
+<option value="Sylhet">SYLHET</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td><b>Zip </b></td>
+<td><input type="text" name="z" id="z" size="30"></td>
+</tr>
+
+
+
+<tr>
+<td colspan=2>
+<left><font size=4><b><p style=" color: red;"> Additional Information</p></font> </left>
+</td>
+</tr>
+
+<tr>
+<td><p> Please enter name,company organization as you would like it to apper in our publications:</p></td>
+</tr>
+
+<tr>
+<td><b> Name </b></td>
+<td><input type=text name=name id="name" size="30"></td>
+</tr>
+
+<tr>    
+<td colspan="2"><input type="checkbox">I would like my gift to remain anonymous</td>
+</tr>
+
+<tr>    
+<td colspan="2"><input type="checkbox">My employer offers a matching gift program. I will mail the matching gift form</td>
+</tr>
+
+<tr>    
+<td colspan="2"><input type="checkbox">Please save the cost of acknowlegding this gift by not mailing a thank you letter</td>
+</tr>
+
+
+<tr>
+<td><b>Comments</b>
+<br>(please type any questions or feedback here)</td>
+<td><textarea rows="4" cols="50" name="comment" form="usrform">
+Enter Comments here...</textarea>
+</td>
+</tr>
+
+<tr>    
+<td><b>How may we contact you?</b></td>
+<td colspan="2"><input type="checkbox">E-mail</td>
+</tr>
+<tr>  
+<td> </td>  
+<td colspan="2"><input type="checkbox"mail>Postal Mail</td>
+</tr>   
+
+<td> </td>  
+<td colspan="2"><input type="checkbox">Telephone</td>
+</tr>
+
+<td> </td>  
+<td colspan="2"><input type="checkbox">Fax</td>
+</tr>
+
+
+<tr>
+<td><p> I would like to receive newletters and information about special events by:  </p></td>
+
+
+<td colspan="2"><input type="checkbox">E-mail</td>
+</tr>
+<tr>  
+<td> </td>  
+<td colspan="2"><input type="checkbox"mail>Postal Mail</td>
+</tr> 
+</tr>
+
+<tr>    
+<td colspan="2"><input type="checkbox">I would like information about volunteering with the </td>
+<tr>
+<td></td>
+<td><input type="text" name="addressq" id="addressq" size="50"></td>
+</tr>
+</tr>
+
+
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Continus " ></td>
+</tr>
+
+ <tr>
+  
+ <td><p>&#128274;Doante online with confidence . You are on a secure server</p></td>
+
+ </tr>
+
+ <tr>
+  
+ <td><p>If you have any problems or questions, please contact support.<p></td>  
+ </tr>
+
+
+</table>
+</form>
+</body>
+</html>
